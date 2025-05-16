@@ -17,6 +17,21 @@ body {
   h1 {
   margin: 10px auto;
   }
+  body.dark-mode{
+    background-color: rgba(0, 0, 0, 0.478);
+  }
+  body.dark-mode button, input{
+    /* border: 0.04em solid rgba(255, 255, 255, 0.456); */
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px rgba(248, 249, 249, 0.17); 
+}
+body.dark-mode button:hover {
+        /* border: 0.04em solid rgba(255, 255, 255, 0.456); */
+        background-color: rgba(167, 175, 188, 0.33);
+        color: white;
+    }
+
 
    .note-form {
     max-width: 100%;
