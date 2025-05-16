@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9f0;
+    text-decoration: none;
+    text-align: center;
+  
+  }
+  h1 {
+  margin: 10px auto;
+  }
+
+   .note-form {
+    max-width: 100%;
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(16, 118, 191, 0.627);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  input {
+    margin: 10px auto;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+  }
+  
+  button {
+    padding: 10px 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    background-color: aqua;
+  }
+  button:hover {
+    scale: 1.1;
+    background-color: azure;
+  }
+  #notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    height: auto;
+    /* border: 2px solid black; */
+    box-shadow: 0 5px 10px rgba(218, 6, 6, 0.149);
+    margin: auto;
+    justify-content: center;
+  }
+  .notesBox {
+    width: 300px;
+    height: 300px;
+    background-color: beige;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(218, 6, 6, 0.149);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .notesBox p {
+    margin: 40px auto;
+  }
+  .notesBox button {
+  margin: 10px auto;
+  width: 80%;
+  
+  }
+  @media (max-width : 600px) {
+    .notesBox {
+      width: 200px;
+      height: 200px;
+    }
+    .notesBox p {
+    margin: 5px auto;
+  }
+    .notesBox button {
+  margin: 5px auto;
+  width: 80%;
+  
+  }
+  }
